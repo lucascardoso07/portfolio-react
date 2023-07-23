@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const StyledContacts = styled.div`
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: var(--grey1);
 
   .container {
@@ -75,5 +75,13 @@ export const StyledContacts = styled.div`
     ul {
       margin-top: 0px;
     }
+  }
+
+  @media (max-width: 700px) {
+    .container {
+      flex-direction: column;
+    }
+    .my-contacts {
+
   }
 `;

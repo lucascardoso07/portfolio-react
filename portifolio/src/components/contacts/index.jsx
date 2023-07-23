@@ -28,7 +28,7 @@ export const Contacts = () => {
             <li>
               <img src={whatsapp} alt="" />
               <div className="my-contacts-text">
-                <h4>My Phone</h4>
+                <h4>Meu Whatsapp</h4>
                 <p>
                   Estou disponível para um bate-papo por whatsapp, vamos falar
                   sobre criatividade juntos?
@@ -45,7 +45,7 @@ export const Contacts = () => {
             <li>
               <img src={mail} alt="" />
               <div className="my-contacts-text">
-                <h4>My email</h4>
+                <h4>Meu email</h4>
                 <p>
                   Envie-me um e-mail relatando feedbacks, sugestões e ideias
                 </p>
@@ -55,7 +55,7 @@ export const Contacts = () => {
             <li>
               <img src={linkedin} alt="" />
               <div className="my-contacts-text">
-                <h4>My LinkedIn</h4>
+                <h4>Meu LinkedIn</h4>
                 <p>
                   Podemos criar interações mais constantes assim como uma rede
                   de compartilhamento

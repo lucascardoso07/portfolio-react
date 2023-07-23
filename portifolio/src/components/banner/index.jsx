@@ -1,4 +1,8 @@
-import { ButtonPrimaryStyled, ButtonSocialMidia } from "../../styles/buttons";
+import {
+  AnchorPrimaryStyled,
+  ButtonPrimaryStyled,
+  ButtonSocialMidia,
+} from "../../styles/buttons";
 import { Skills } from "../../utils/SkillsData";
 import { Skill } from "../skills";
 import { StyledBanner } from "./style";
@@ -16,7 +20,9 @@ export const Banner = () => {
             Web que leva ao sucesso do produto geral
           </p>
           <div className="container-submit">
-            <ButtonPrimaryStyled>Ver Projetos</ButtonPrimaryStyled>
+            <AnchorPrimaryStyled href="#projects">
+              Ver Projetos
+            </AnchorPrimaryStyled>
             <a
               rel="noreferrer"
               target="_blank"

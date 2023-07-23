@@ -53,7 +53,7 @@ export const StyledHeader = styled.header`
     color: var(--brand-1);
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     width: 100%;
     position: absolute;
 

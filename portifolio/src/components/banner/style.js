@@ -65,7 +65,7 @@ export const StyledBanner = styled.div`
     background: transparent; /* color of the tracking area */
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     .container {
       width: 100%;
       display: flex;
@@ -82,4 +82,22 @@ export const StyledBanner = styled.div`
       flex-wrap: wrap;
     }
   }
+
+  /* @media (max-width: 700px) {
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content-about {
+      width: 100%;
+    }
+    .container-skills ul {
+      width: 100%;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+  } */
 `;

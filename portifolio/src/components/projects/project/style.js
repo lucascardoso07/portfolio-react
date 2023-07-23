@@ -3,8 +3,17 @@ import { styled } from "styled-components";
 export const StyledProject = styled.li`
   width: 40%;
   padding: 20px;
+  border-radius: 8px;
+  transition: all ease-in 0.2s;
+  border: 2px solid transparent;
+  /* transform: scale(0.99); */
   /* background-color: violet; */
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 2px solid var(--grey2);
 
+    /* transform: scale(0.99); */
+  }
   h2 {
     font-size: 1.6rem;
     color: var(--whiteFixed);
@@ -49,7 +58,7 @@ export const StyledProject = styled.li`
     color: var(--grey2);
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     width: 90%;
     display: flex;
     flex-direction: column;

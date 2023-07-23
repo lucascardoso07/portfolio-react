@@ -2,6 +2,8 @@ import { styled } from "styled-components";
 
 export const StyledProjects = styled.div`
   width: 100%;
+  padding: 80px 0;
+  height: auto;
   background-color: var(--grey0);
 
   .container {
@@ -28,6 +30,7 @@ export const StyledProjects = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
   }
   @media (max-width: 500px) {
     .container {
